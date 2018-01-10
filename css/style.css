@@ -1,0 +1,207 @@
+.button-m:hover,
+.button-m:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.block-1{
+    background: url(../img/block1.jpg) center 0 no-repeat #1d2a35;
+    padding: 530px 40px 40px;
+}
+.block-1 .sale{
+    position: absolute;
+    top: 68px;
+    left: 234px;
+    font: 16px 'MuseoSansCyrl-900';
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #e8c293;
+}
+.block-1 .sale>span{
+    font-size: 28px;
+}
+/* after_qbici */
+.price{
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+}
+.price>div{
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 80px;
+    padding: 10px 5px;
+    font: 18px 'MuseoSansCyrl-500';
+    line-height: 1em;
+    white-space: nowrap;
+}
+.price .old{
+    padding-right: 30px;
+    text-align: right;
+    color: #fff;
+    background: #999999;   
+}
+.price .old>s{
+    font: 32px 'MuseoSansCyrl-300';
+    line-height: 1.4em;
+}
+.price .new{
+  padding-left: 30px;
+  color: #402925;
+  background: #ffffff;
+}
+.price .new>span{
+  color: #402925;
+  font: 36px 'MuseoSansCyrl-900';  
+}
+.block-1 .button-m{margin-top: 15px;}
+.block-2{padding: 0;}
+.block-2 .wrapper{padding:40px 20px;
+    text-align: justify;
+    background:#ffffff;
+}
+.block-2 .wrapper ul{
+    padding: 20px 0 0;
+}
+.block-2 .wrapper ul>li{
+    float: left;
+    width: 50%;
+    padding: 0 0 10px;
+    text-align: left;
+}
+.block-2 .wrapper ul>li span{
+    display: block;
+    font:16px 'MuseoSansCyrl-900';
+    font-weight: normal;
+}
+.block-2 .wrapper h3{
+    font:30px 'MuseoSansCyrl-900';
+    text-transform:uppercase; 
+    padding-bottom: 30px;
+    text-align: center;
+}
+.block7 .video{
+    position: relative;
+    width: 440px;
+    height: 246px;
+    margin: 30px auto 40px;
+    outline: 10px solid #f1f1f1;
+    background: #000;
+    overflow:hidden;
+}
+.block7 .video iframe, .block7 .video object, .block7 .video embed{
+    position:absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.block5 h2{
+    color: #402925;
+    font-size: 30px;
+}
+.block5 ul li{
+    position: relative;
+    margin-top: 50px;
+    padding: 0 30px 20px;
+    font-size: 18px;
+    background: #fff;
+    border: 1px solid #e7e7e7;
+    text-align: center;
+}
+/* michael-k90 */
+.block5 ul li:before{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url('../img/icon2.png') no-repeat;
+    margin: -17px auto auto;
+}
+.block5 ul li:nth-child(1):before{background-position: 0px 0px;}
+.block5 ul li:nth-child(2):before{background-position: 0px -105px;}
+.block5 ul li:nth-child(3):before{background-position: 0px -210px;}
+/* bizlife_inc */
+.block7{background: url('../img/block7.jpg') center 0 repeat-y; padding-bottom: 10px;}
+.block7 p{
+    position: relative;
+    padding: 9px 7px 5px 7px;
+    font-size: 22px;
+    line-height: 1.5em;
+    color: #fff;
+    text-align: center;
+}
+.block7 h2{font: 30px 'MuseoSansCyrl-900';}
+.block8{padding: 10px 0px;}
+.block8 ul li {
+    position: relative;
+    padding: 20px;
+    border-bottom: 1px dashed rgba(110,110,74,0.6);
+    text-align: center;
+    font-family:'MuseoSansCyrl-300';
+    text-align: justify;
+}
+.block8 ul li img{
+    display: inline-block;
+    margin-top: 10px;
+}
+.block8 p.name{
+    display: block;
+    color: #402925;
+    font-family:'MuseoSansCyrl-500';
+    font-size: 18px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.block8 ul li:nth-child(2n){background: #fff;}
+.block8 ul li:last-child{
+    border: 0;
+    padding-bottom: 40px;
+}
+.block9{padding: 0;}
+.block9 h2{
+    padding: 20px 0 15px;
+    background: #1d2a35;
+    color: #e8c293;
+}
+.block9 p.sale{
+    padding: 15px 0 12px;
+    font: 24px 'MuseoSansCyrl-900';  
+    line-height: 1.3em;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #e2a861;
+}
+.block9 .wrapper{
+    height: auto;
+    padding: 525px 40px 15px;
+    background: url(../img/block1.jpg) center 0 no-repeat #1d2a35;
+}
+/* owmen17 */
+.timer{
+    background: #1d2a35;
+    padding: 15px 40px 50px;
+}
+.timer p{
+  padding: 0 0 10px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.m1-form{
+    background: url('../img/block7.jpg') center 0 no-repeat;
+    padding: 30px 40px;
+}
+.footer{
+    padding: 15px 0;
+    line-height: 1em;
+}
+.footer a{
+    font-size: 13px;
+    color: #234161;
+}
