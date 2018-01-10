@@ -27,7 +27,7 @@ button,input{outline: none;}
 
 
 .center{text-align: center;}
-.clearfixed:after{content: '';display: block;clear: both;}
+.clearfix:after{content: '';display: block;clear: both;}
 
 @font-face {
   font-family: 'MuseoSansCyrl-300';
@@ -80,24 +80,24 @@ html{
 }
 
 body{
-    position: relative !important;
-    width: 100% !important;
-    min-width: 320px !important;
-    padding: 0px !important;
-    margin: 0px auto; !important
-    font-family: 'MuseoSansCyrl-300', 'Helvetica', 'Arial', sans-serif !important;
-    font-weight: normal !important;
-    font-size: 16px !important;
-    line-height: 1.5em !important;
-    color: #333 !important;
-    background: #f7f7f7 !important;
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    padding: 0px;
+    margin: 0px auto;
+    font-family: 'MuseoSansCyrl-300', 'Helvetica', 'Arial', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5em;
+    color: #333;
+    background: #f7f7f7;
 }
 .main-wrap{
     position: relative;
     width: 480px;
     margin: 0px auto;
 }
-.section, .wrap, .wrapper{
+.section, .wrap, .container{
     position: relative;
 }
 .section{
@@ -163,7 +163,6 @@ h1{
     text-align: center;
     background: #1d2a35;
     padding: 15px 10px;
-    margin: 0;
 }
 h1 b{
     color: #e8c293;
