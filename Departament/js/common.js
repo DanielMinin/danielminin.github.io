@@ -93,8 +93,12 @@ $(function() {
 		$(".block-15").addClass("hidden");
 		$(".block-16").addClass("hidden");
 		$(".block-17").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
 		$(".block-18").addClass("hidden");
 		$(".block-19").addClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
 		$(".block-8").removeClass("hidden");
 	});
 
@@ -110,8 +114,14 @@ $(function() {
 		$(".block-15").addClass("hidden");
 		$(".block-16").addClass("hidden");
 		$(".block-17").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
 		$(".block-18").addClass("hidden");
+		$(".block-18-2").addClass("hidden");
+		$(".block-18-3").addClass("hidden");
 		$(".block-19").addClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
 		$(".block-9").removeClass("hidden");
 	});
 
@@ -127,8 +137,14 @@ $(function() {
 		$(".block-15").addClass("hidden");
 		$(".block-16").addClass("hidden");
 		$(".block-17").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
 		$(".block-18").addClass("hidden");
+		$(".block-18-2").addClass("hidden");
+		$(".block-18-3").addClass("hidden");
 		$(".block-19").addClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
 		$(".block-9-2").removeClass("hidden");
 	});
 
@@ -144,8 +160,14 @@ $(function() {
 		$(".block-15").addClass("hidden");
 		$(".block-16").addClass("hidden");
 		$(".block-17").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
 		$(".block-18").addClass("hidden");
+		$(".block-18-2").addClass("hidden");
+		$(".block-18-3").addClass("hidden");
 		$(".block-19").addClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
 		$(".block-10").removeClass("hidden");
 	});
 
@@ -161,8 +183,14 @@ $(function() {
 		$(".block-15").addClass("hidden");
 		$(".block-16").addClass("hidden");
 		$(".block-17").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
 		$(".block-18").addClass("hidden");
+		$(".block-18-2").addClass("hidden");
+		$(".block-18-3").addClass("hidden");
 		$(".block-19").addClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
 		$(".block-11").removeClass("hidden");
 	});
 
@@ -178,8 +206,14 @@ $(function() {
 		$(".block-15").addClass("hidden");
 		$(".block-16").addClass("hidden");
 		$(".block-17").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
 		$(".block-18").addClass("hidden");
+		$(".block-18-2").addClass("hidden");
+		$(".block-18-3").addClass("hidden");
 		$(".block-19").addClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
 		$(".block-12").removeClass("hidden");
 	});
 
@@ -195,8 +229,14 @@ $(function() {
 		$(".block-15").addClass("hidden");
 		$(".block-16").addClass("hidden");
 		$(".block-17").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
 		$(".block-18").addClass("hidden");
+		$(".block-18-2").addClass("hidden");
+		$(".block-18-3").addClass("hidden");
 		$(".block-19").addClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
 		$(".block-13").removeClass("hidden");
 	});
 
@@ -212,8 +252,14 @@ $(function() {
 		$(".block-15").addClass("hidden");
 		$(".block-16").addClass("hidden");
 		$(".block-17").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
 		$(".block-18").addClass("hidden");
+		$(".block-18-2").addClass("hidden");
+		$(".block-18-3").addClass("hidden");
 		$(".block-19").addClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
 		$(".block-14").removeClass("hidden");
 	});
 
@@ -228,61 +274,360 @@ $(function() {
 		$(".block-14").addClass("hidden");
 		$(".block-16").addClass("hidden");
 		$(".block-17").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
 		$(".block-18").addClass("hidden");
+		$(".block-18-2").addClass("hidden");
+		$(".block-18-3").addClass("hidden");
 		$(".block-19").addClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
 		$(".block-15").removeClass("hidden");
 	});
 
 	$("#pr-1").click(function() {
 		$(".block-16").removeClass("hidden");
+		$(".block-12").addClass("hidden");
+		$(".block-16-2").addClass("hidden");
+		$(".block-13").addClass("hidden");
+		$(".block-9").addClass("hidden");
+		$(".block-9-2").addClass("hidden");
+		$(".block-8").addClass("hidden");
+		$(".block-10").addClass("hidden");
+		$(".block-11").addClass("hidden");
+		$(".block-14").addClass("hidden");
+		$(".block-15").addClass("hidden");
+		$(".block-17").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
+		$(".block-18").addClass("hidden");
+		$(".block-18-2").addClass("hidden");
+		$(".block-18-3").addClass("hidden");
+		$(".block-19").addClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
 	});
 
 	$("#pr-2").click(function() {
-		$(".block-16").removeClass("hidden");
+		$(".block-16-2").removeClass("hidden");
+		$(".block-16").addClass("hidden");
+		$(".block-12").addClass("hidden");
+		$(".block-13").addClass("hidden");
+		$(".block-9").addClass("hidden");
+		$(".block-9-2").addClass("hidden");
+		$(".block-8").addClass("hidden");
+		$(".block-10").addClass("hidden");
+		$(".block-11").addClass("hidden");
+		$(".block-14").addClass("hidden");
+		$(".block-15").addClass("hidden");
+		$(".block-17").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
+		$(".block-18").addClass("hidden");
+		$(".block-18-2").addClass("hidden");
+		$(".block-18-3").addClass("hidden");
+		$(".block-19").addClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
 	});
 
 	$("#pr-3").click(function() {
-		$(".block-16").removeClass("hidden");
+		$(".block-16-3").removeClass("hidden");
+		$(".block-12").addClass("hidden");
+		$(".block-13").addClass("hidden");
+		$(".block-9").addClass("hidden");
+		$(".block-9-2").addClass("hidden");
+		$(".block-8").addClass("hidden");
+		$(".block-10").addClass("hidden");
+		$(".block-11").addClass("hidden");
+		$(".block-14").addClass("hidden");
+		$(".block-16-2").addClass("hidden");
+		$(".block-16").addClass("hidden");
+		$(".block-15").addClass("hidden");
+		$(".block-17").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
+		$(".block-18").addClass("hidden");
+		$(".block-18-2").addClass("hidden");
+		$(".block-18-3").addClass("hidden");
+		$(".block-19").addClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
 	});
 
 	$("#it-1").click(function() {
 		$(".block-17").removeClass("hidden");
+		$(".block-12").addClass("hidden");
+		$(".block-13").addClass("hidden");
+		$(".block-9").addClass("hidden");
+		$(".block-9-2").addClass("hidden");
+		$(".block-8").addClass("hidden");
+		$(".block-10").addClass("hidden");
+		$(".block-11").addClass("hidden");
+		$(".block-14").addClass("hidden");
+		$(".block-15").addClass("hidden");
+		$(".block-16").addClass("hidden");
+		$(".block-16-2").addClass("hidden");
+		$(".block-16-3").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
+		$(".block-18").addClass("hidden");
+		$(".block-18-2").addClass("hidden");
+		$(".block-18-3").addClass("hidden");
+		$(".block-19").addClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
 	});
 
 	$("#it-2").click(function() {
-		$(".block-17").removeClass("hidden");
+		$(".block-17-2").removeClass("hidden");
+		$(".block-12").addClass("hidden");
+		$(".block-13").addClass("hidden");
+		$(".block-9").addClass("hidden");
+		$(".block-9-2").addClass("hidden");
+		$(".block-8").addClass("hidden");
+		$(".block-10").addClass("hidden");
+		$(".block-11").addClass("hidden");
+		$(".block-14").addClass("hidden");
+		$(".block-15").addClass("hidden");
+		$(".block-16").addClass("hidden");
+		$(".block-16-2").addClass("hidden");
+		$(".block-16-3").addClass("hidden");
+		$(".block-17").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
+		$(".block-18").addClass("hidden");
+		$(".block-18-2").addClass("hidden");
+		$(".block-18-3").addClass("hidden");
+		$(".block-19").addClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
 	});
 
 	$("#it-3").click(function() {
-		$(".block-17").removeClass("hidden");
+		$(".block-17-3").removeClass("hidden");
+		$(".block-12").addClass("hidden");
+		$(".block-13").addClass("hidden");
+		$(".block-9").addClass("hidden");
+		$(".block-9-2").addClass("hidden");
+		$(".block-8").addClass("hidden");
+		$(".block-10").addClass("hidden");
+		$(".block-11").addClass("hidden");
+		$(".block-14").addClass("hidden");
+		$(".block-15").addClass("hidden");
+		$(".block-16").addClass("hidden");
+		$(".block-16-2").addClass("hidden");
+		$(".block-16-3").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17").addClass("hidden");
+		$(".block-18").addClass("hidden");
+		$(".block-18-2").addClass("hidden");
+		$(".block-18-3").addClass("hidden");
+		$(".block-19").addClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
 	});
 
 	$("#vo-1").click(function() {
 		$(".block-18").removeClass("hidden");
+		$(".block-18-2").addClass("hidden");
+		$(".block-18-3").addClass("hidden");
+		$(".block-12").addClass("hidden");
+		$(".block-13").addClass("hidden");
+		$(".block-9").addClass("hidden");
+		$(".block-9-2").addClass("hidden");
+		$(".block-8").addClass("hidden");
+		$(".block-10").addClass("hidden");
+		$(".block-11").addClass("hidden");
+		$(".block-14").addClass("hidden");
+		$(".block-15").addClass("hidden");
+		$(".block-16").addClass("hidden");
+		$(".block-16-2").addClass("hidden");
+		$(".block-16-3").addClass("hidden");
+		$(".block-17").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
+		$(".block-19").addClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
 	});
 
 	$("#vo-2").click(function() {
-		$(".block-18").removeClass("hidden");
+		$(".block-18-2").removeClass("hidden");
+		$(".block-18").addClass("hidden");
+		$(".block-18-3").addClass("hidden");
+		$(".block-12").addClass("hidden");
+		$(".block-13").addClass("hidden");
+		$(".block-9").addClass("hidden");
+		$(".block-9-2").addClass("hidden");
+		$(".block-8").addClass("hidden");
+		$(".block-10").addClass("hidden");
+		$(".block-11").addClass("hidden");
+		$(".block-14").addClass("hidden");
+		$(".block-15").addClass("hidden");
+		$(".block-16").addClass("hidden");
+		$(".block-16-2").addClass("hidden");
+		$(".block-16-3").addClass("hidden");
+		$(".block-17").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
+		$(".block-19").addClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
 	});
 
 	$("#vo-3").click(function() {
-		$(".block-18").removeClass("hidden");
+		$(".block-18-3").removeClass("hidden");
+		$(".block-18-2").addClass("hidden");
+		$(".block-18").addClass("hidden");
+		$(".block-12").addClass("hidden");
+		$(".block-13").addClass("hidden");
+		$(".block-9").addClass("hidden");
+		$(".block-9-2").addClass("hidden");
+		$(".block-8").addClass("hidden");
+		$(".block-10").addClass("hidden");
+		$(".block-11").addClass("hidden");
+		$(".block-14").addClass("hidden");
+		$(".block-15").addClass("hidden");
+		$(".block-16").addClass("hidden");
+		$(".block-16-2").addClass("hidden");
+		$(".block-16-3").addClass("hidden");
+		$(".block-17").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
+		$(".block-19").addClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
 	});
 
 	$("#pk-1").click(function() {
 		$(".block-19").removeClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
+		$(".block-12").addClass("hidden");
+		$(".block-13").addClass("hidden");
+		$(".block-9").addClass("hidden");
+		$(".block-9-2").addClass("hidden");
+		$(".block-8").addClass("hidden");
+		$(".block-10").addClass("hidden");
+		$(".block-11").addClass("hidden");
+		$(".block-14").addClass("hidden");
+		$(".block-15").addClass("hidden");
+		$(".block-16").addClass("hidden");
+		$(".block-16-2").addClass("hidden");
+		$(".block-16-3").addClass("hidden");
+		$(".block-17").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
+		$(".block-18").addClass("hidden");
+		$(".block-18-2").addClass("hidden");
+		$(".block-18-3").addClass("hidden");
 	});
 
 	$("#pk-2").click(function() {
-		$(".block-19").removeClass("hidden");
+		$(".block-19-2").removeClass("hidden");
+		$(".block-19").addClass("hidden");
+		$(".block-19-3").addClass("hidden");
+		$(".block-12").addClass("hidden");
+		$(".block-13").addClass("hidden");
+		$(".block-9").addClass("hidden");
+		$(".block-9-2").addClass("hidden");
+		$(".block-8").addClass("hidden");
+		$(".block-10").addClass("hidden");
+		$(".block-11").addClass("hidden");
+		$(".block-14").addClass("hidden");
+		$(".block-15").addClass("hidden");
+		$(".block-16").addClass("hidden");
+		$(".block-16-2").addClass("hidden");
+		$(".block-16-3").addClass("hidden");
+		$(".block-17").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
+		$(".block-18").addClass("hidden");
+		$(".block-18-2").addClass("hidden");
+		$(".block-18-3").addClass("hidden");
 	});
 
 	$("#pk-3").click(function() {
-		$(".block-19").removeClass("hidden");
+		$(".block-19-3").removeClass("hidden");
+		$(".block-19-2").addClass("hidden");
+		$(".block-19").addClass("hidden");
+		$(".block-12").addClass("hidden");
+		$(".block-13").addClass("hidden");
+		$(".block-9").addClass("hidden");
+		$(".block-9-2").addClass("hidden");
+		$(".block-8").addClass("hidden");
+		$(".block-10").addClass("hidden");
+		$(".block-11").addClass("hidden");
+		$(".block-14").addClass("hidden");
+		$(".block-15").addClass("hidden");
+		$(".block-16").addClass("hidden");
+		$("block-16-2").addClass("hidden");
+		$(".block-16-3").addClass("hidden");
+		$(".block-17").addClass("hidden");
+		$(".block-17-2").addClass("hidden");
+		$(".block-17-3").addClass("hidden");
+		$(".block-18").addClass("hidden");
+		$(".block-18-2").addClass("hidden");
+		$(".block-18-3").addClass("hidden");
 	});
 
 	$("#openzakon").click(function() {
 		$("#zakon1").removeClass("hidden");
+	});
+
+	$("#fz-1").click(function() {
+		$(".fedzak").removeClass("hidden");
+		$(".zakon1").addClass("hidden");
+		$(".grazdkod").addClass("hidden");
+		$(".prikazy").addClass("hidden");
+		$(".zakipost").addClass("hidden");
+		$(".gradkod").addClass("hidden");
+	});
+
+	$("#prik-1").click(function() {
+		$(".prikazy").removeClass("hidden");
+		$(".zakon1").addClass("hidden");
+		$(".grazdkod").addClass("hidden");
+		$(".fedzak").addClass("hidden");
+		$(".zakipost").addClass("hidden");
+		$(".gradkod").addClass("hidden");
+	});
+
+	$("#zip-1").click(function() {
+		$(".zakipost").removeClass("hidden");
+		$(".zakon1").addClass("hidden");
+		$(".grazdkod").addClass("hidden");
+		$(".fedzak").addClass("hidden");
+		$(".prikazy").addClass("hidden");
+		$(".gradkod").addClass("hidden");
+	});
+
+	$("#grdk-1").click(function() {
+		$(".gradkod").removeClass("hidden");
+		$(".zakon1").addClass("hidden");
+		$(".grazdkod").addClass("hidden");
+		$(".fedzak").addClass("hidden");
+		$(".prikazy").addClass("hidden");
+		$(".zakipost").addClass("hidden");
+	});
+
+	$("#grk-1").click(function() {
+		$(".grazdkod").removeClass("hidden");
+		$(".zakon1").addClass("hidden");
+		$(".fedzak").addClass("hidden");
+		$(".prikazy").addClass("hidden");
+		$(".zakipost").addClass("hidden");
+		$(".gradkod").addClass("hidden");
+	});
+
+	$("#bot-nav").click(function() {
+		$("#bot-menu").removeClass("hidden");
+		$("#delmenu").removeClass("hidden");
+	});	
+
+	$("#delmenu").click(function() {
+		$("#bot-menu").addClass("hidden");
+		$("#delmenu").addClass("hidden");
 	});
 
 });

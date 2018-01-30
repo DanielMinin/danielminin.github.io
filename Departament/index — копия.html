@@ -48,68 +48,59 @@
 
 	<header class="main-head">
 		
-	<nav class="nav hidden-sm hidden-xs">
+		<nav class="top-line">
+
+			<div class="mobile-mnu" style="z-index: 100;">
+				<a href="#" class="toggle-mnu" style="z-index: 999"><span></span></a><b>Меню</b>
+			</div>
+			
+		</nav>
+
 		<div class="container">
-			<div class="col-sm-2 col-sm-offset-10">
-				<p>НАВИГАЦИЯ</p>
+			<nav id="my-menu" style="z-index: 900;">
 				<ul>
-					<li><a href="#">Пункт меню</a></li>
-					<li><a href="#">Пункт меню</a></li>
-					<li><a href="#">Пункт меню</a></li>
-					<li><a href="#">Пункт меню</a></li>
-					<li><a href="#">Пункт меню</a></li>
-					<li><a href="#">Пункт меню</a></li>
-					<li><a href="#">Пункт меню</a></li>
-					<li><a href="#">Пункт меню</a></li>
-					<li></li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-	<nav class="nav-mob hidden-md hidden-lg">
-		<div class="container">
-			<div class="col-sm-2 col-sm-offset-10">
-				<p id="bot-nav"><b>НАВИГАЦИЯ</b></p>
-				<span id="delmenu" class="hidden"><i class="fa fa-times" aria-hidden="true"></i></span>
-				<ul id="bot-menu" class="hidden">
 					<li><a href="#">Главная</a></li>
-					<li><a href="#">Услуги</a></li>
-					<li><a href="#">Контакты</a></li>
-					<li><a href="#">О нас</a></li>
-					<li><a href="#">Конфиденциальность</a></li>
-					<li><a href="#">Обратная связь</a></li>
-					<li><a href="#">Пункт меню</a></li>
+					<li><a href="#">Что регистрировать?</a></li>
+					<li><a href="#">Зачем регистрировать?</a></li>
+					<li><a href="#">Виды участков</a></li>
+					<li><a href="#">Процесс регистрации</a></li>
+					<li><a href="#">Последовательность действий</a></li>
+					<li><a href="#">Работа с нами</a></li>
 				</ul>
-			</div>
+			</nav>
 		</div>
-	</nav>
 
-	<div id="j1" class="header block-1">
+	</header>
+
+	<section id="j1" class="block-1">
 		<div class="container">
 			<div class="col-sm-8 col-sm-offset-2">
 				<p>Оформление частных домов и строений в Москве и Московской области.<br>Кадастровый учет, изготовление технического плана, разрешение на строительство и ввод в эксплуатацию.</p>
 				
 				<h1 id="anchor-1">ЗАРЕГИСТРИРУЙТЕ НЕДВИЖИМОСТЬ<br><span class="hidden-xs">И РАСПОРЯЖАЙТЕСЬ ЕЙ СВОБОДНО</span></h1>
-				
-				<p style="font-size: 16px">Возьмемся за дело и решим Ваши задачи.</p>
-				<script>var amo_forms_params = {"id":264697,"hash":"772c1744e418c0641007e8b9da1877fe","locale":"ru"};</script><script id="amoforms_script" async="async" charset="utf-8" src="https://forms.amocrm.ru/forms/assets/js/amoforms.js"></script>
+				<img class="logo" src="img/logo.png" alt="Департамент Права">
+				<form class="callback" action="" method="GET">
+					<h3>Возьмемся за дело и решим Ваши задачи</h3>
+					<input class="input" type="text" placeholder="Ваше имя">
+					<input class="input" type="text" placeholder="Ваш телефон" require>
+					<br>
+					<button class="button" type="submit">Зарегистрировать<span class="hidden-xs"> право</span></button>
+					<p class="notice">Нажимания на кнопку, Вы даете согласие на обработку персональных данных</p>
+				</form>
 
 			</div>
 		</div>
-	</div>
+	</section>
 
-	</header>
-
-	<section class="block block-2">
+	<section class="block-2">
 		<div class="container">
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
 				
-				<h2>Оформление права<br><br><span>"Под ключ"</span></h2><br>
+				<h2>Оформление права<br>"Под ключ"</h2>
 
 				<div class="items">
 					<div class="item col-sm-6">
-						<img src="img/item_I.png" alt="I">
+						<img src="img/item_II.png" alt="I">
 						<p>1. Получение разрешения на строительство</p>
 						<a href="#j8">Подробнее...</a>
 					</div>
@@ -121,29 +112,40 @@
 					<div class="item col-sm-6">
 						<img src="img/item_III.png" alt="III">
 						<p>3. Ввод объекта в эксплуатацию</p>
-						<a href="#j10">Подробнее...</a>
+						<a href="#10">Подробнее...</a>
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/item_IV.png" alt="IV">
 						<p>4. Регистрация права в Росреестре</p>
-						<a href="#j11">Подробнее...</a>
+						<a href="#11">Подробнее...</a>
 					</div>
 				</div>
 
 				<p class="do-register">Зарегистрируйте право <b>"под ключ"</b>!</p>
-				<script>var amo_forms_params = {"id":264874,"hash":"5590d37b3242e67df63bfd089098d415","locale":"ru"};</script><script id="amoforms_script" async="async" charset="utf-8" src="https://forms.amocrm.ru/forms/assets/js/amoforms.js"></script>
+
+				<button class="button" type="submit">Оформить недвижимость</button>
 
 			</div>
 		</div>
 	</section>
 
-	<section class="block block-3">
+	<section class="block-3">
 		<div class="container">
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
 				
-				<h2>Преимущества регистрации<br><span>"Под ключ"</span></h2>
+				<h2>Преимущества регистрации<br>"Под ключ"</h2>
 
 				<div class="items">
+					<div class="item col-sm-6">
+						<h4>Сохранение сил и здоровья</h4>
+						<img src="img/advantage1.png" alt="Преимущество">
+						<p>Вам не придется участвовать в процессе оформления документов.<br><b>Все сделаем за Вас.</b></p>
+					</div>
+					<div class="item col-sm-6">
+						<h4>Уверенность в результате</h4>
+						<img src="img/advantage2.png" alt="Преимущество">
+						<p><b>Фиксируем все обязательства в договоре</b>. В том числе сроки выполнения и окончательную стоимость работ.</p>
+					</div>
 					<div class="item col-sm-6">
 						<h4>Экономия времени</h4>
 						<img src="img/advantage3.png" alt="Преимущество">
@@ -154,16 +156,6 @@
 						<img src="img/portmone.png" alt="Преимущество">
 						<p>Нам достаточно предоплаты. Окончательный расчет потребуется <b>по факту достижения результата.</b></p>
 					</div>
-					<div class="item col-sm-6">
-						<h4>Сохранение сил<br>и здоровья</h4>
-						<img src="img/advantage1.png" alt="Преимущество">
-						<p>Вам не придется участвовать в процессе оформления документов.<br><b>Все сделаем за Вас.</b></p>
-					</div>
-					<div class="item col-sm-6">
-						<h4>Спокойствие и уверенность<br>в результате</h4>
-						<img src="img/advantage2.png" alt="Преимущество">
-						<p><b>Фиксируем все обязательства в договоре</b>. В том числе сроки выполнения и окончательную стоимость работ.</p>
-					</div>
 				</div>
 
 				<button class="button" type="submit">Сохранить время и спокойствие</button>
@@ -172,11 +164,11 @@
 		</div>
 	</section>
 
-	<section class="block block-4">
+	<section class="block-4">
 		<div class="container">
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
 				
-				<h2>Акция<br><span>Для вас совершенно бесплатно</span></h2>
+				<h2>Акция<br>Для вас совершенно бесплатно</h2>
 
 				<div class="items">
 					<div class="item col-sm-6">
@@ -189,7 +181,7 @@
 						<h4>Варианты решения</h4>
 						<img src="img/sale2.png" alt="Преимущество">
 						<p>Исходя из Вашей цели</p>
-						<a href="#j12">Подробнее...</a>
+						<a href="#j13">Подробнее...</a>
 					</div>
 				</div>
 
@@ -200,12 +192,12 @@
 		</div>
 	</section>
 
-	<section id="j2" class="block block-5">
+	<section id="j2" class="block-5">
 		<div class="container">
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
 				
 				<div class="row">
-					<h2>Какие объекты недвижимости<br><span>Нужно регистрировать</span></h2>
+					<h2>Какие объекты недвижимости<br>нужно регистрировать</h2>
 					<div class="items">
 						<div class="item col-sm-6">
 							<h4>ИНДИВИДУАЛЬНЫЕ ЖИЛЫЕ ДОМА</h4>
@@ -260,11 +252,11 @@
 		</div>
 	</section>
 
-	<section id="j3" class="block block-6">
+	<section id="j3" class="block-6">
 		<div class="container">
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
 				
-				<h2>Право собственности<br><span>Зачем регистрировать</span></h2>
+				<h2>Право собственности<br>Зачем регистрировать</h2>
 
 				<div class="items">
 					<div class="item col-sm-6">
@@ -308,11 +300,11 @@
 		</div>
 	</section>
 
-	<section id="j4" class="block block-7">
+	<section id="j4" class="block-7">
 		<div class="container">
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
 				
-				<h2>На каком земельном участке<br><span>Регистрировать право собственности</span></h2>
+				<h2>На каком земельном участке<br>Регистрировать право собственности</h2>
 
 				<div class="items">
 					<div class="item col-sm-6">
@@ -359,10 +351,10 @@
 	</section>
 
 	<section id="j5" class="navigation navigation-1">
-		<div id="j16" class="container">
-			<div id="j15" class="col-sm-9">
+		<div class="container">
+			<div class="col-sm-8 col-sm-offset-2">
 				
-				<div id="j14" class="row">
+				<div class="row">
 					<div class="col-sm-4">
 						<img src="img/fence.png" alt="I">
 					</div>
@@ -377,6 +369,36 @@
 					</div>
 				</div>
 
+				<div class="row">
+					<div class="col-sm-4">
+						<img src="img/arch.png" alt="I">
+					</div>
+					<div class="col-sm-8">
+						<h3>Компетентные органы</h3>
+						<p>Участвующие в регистрации права</p>
+						<ul>
+							<li id="ko-1"><a href="#block-10">Посмотреть содержание раздела</a></li>
+						</ul>
+						<p><b>Нажмите</b> чтобы увидеть полное содержание раздела</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-4">
+						<img src="img/docs.png" alt="I">
+					</div>
+					<div class="col-sm-8">
+						<h3>Документы</h3>
+						<p>Требуемые для регистрации права, итоговый документ</p>
+						<ul>
+							<li id="d-1"><a href="#block-11">Посмотреть содержание раздела</a></li>
+						</ul>
+						<p><b>Нажмите</b> чтобы увидеть полное содержание раздела</p>
+					</div>
+				</div>
+
+				<button class="button" type="submit">Зарегистрировать право</button>
+
 			</div>
 		</div>
 	</section>
@@ -384,7 +406,7 @@
 	<section id="block-8" class="block-8 hidden">
 		<div class="container">
 
-			<div class="col-sm-9">
+			<div id="j14" class="col-sm-8 col-sm-offset-2">
 				
 				<h2>Индивидуальные жилые дома</h2>
 
@@ -392,32 +414,32 @@
 					<div class="item col-sm-6">
 						<img src="img/I.png" alt="I">
 						<p><b>1.Получение градостроительного плана</b><span>Земельного участка (<u>ГПЗУ</u>)</span></p>
-						<a href="#documents">Подробнее...</a>
+						<a href="#j17">Подробнее...</a>
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/II.png" alt="I">
 						<p><b>2.Разработка схемы для организации</b><span>Земельного участка (<u>СПОЗУ</u>)</span></p>
-						<a href="#documents">Подробнее...</a>
+						<a href="#j18">Подробнее...</a>
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/III.png" alt="I">
 						<p><b>3.Получение <u>разрешения на строительство</u></b><span style="color: transparent">Text</span></p>
-						<a href="#documents">Подробнее...</a>
+						<a href="#j19">Подробнее...</a>
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/IV.png" alt="I">
 						<p><b>4.Изготовление <u>технического плана</u></b><span>Индивидуального жилого дома</span></p>
-						<a href="#documents">Подробнее...</a>
+						<a href="#j20">Подробнее...</a>
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/V.png" alt="I">
 						<p><b>5.Получение разрешения на ввод объекта в эксплуатацию</b></p>
-						<a href="#documents">Подробнее...</a>
+						<a href="#j21">Подробнее...</a>
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/VI.png" alt="Строение">
 						<p><b>6.Постановка дома на кадастровый учет</b><span>И <u>регистрация права в Росреестре</u></span></p>
-						<a href="#documents">Подробнее...</a>
+						<a href="#j22">Подробнее...</a>
 					</div>
 				</div>
 
@@ -431,7 +453,7 @@
 	<section id="block-9" class="block-9 hidden">
 		<div class="container">
 
-			<div id="j15" class="row col-sm-9">
+			<div id="j15" class="row col-sm-8 col-sm-offset-2">
 				
 				<h2>Жилые строения (Дачи)</h2>
 
@@ -449,12 +471,12 @@
 					<div class="item col-sm-6">
 						<img src="img/III.png" alt="I">
 						<p><b>3.Изготовление <u>технического плана</u></b><br>Жилого строения</p>
-						<a href="#documents">Подробнее...</a>
+						<a href="#j20">Подробнее...</a>
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/IV.png" alt="I">
 						<p><b>4.<u>Регистрация права в Росреестре</u></b><br><span style="color: transparent;">Жилого строения</span></p>
-						<a href="#documents">Подробнее...</a>
+						<a href="#j22">Подробнее...</a>
 					</div>
 				</div>
 
@@ -465,7 +487,7 @@
 
 	<section id="block-9-2" class="block-9-2 hidden">
 		<div class="container">
-			<div class="row col-sm-9">
+			<div id="j16" class="row col-sm-8 col-sm-offset-2">
 				
 				<h2>Нежилые строения</h2>
 
@@ -483,12 +505,12 @@
 					<div class="item col-sm-6">
 						<img src="img/III.png" alt="I">
 						<p><b>3.Изготовление <u>технического плана</u></b><br>Нежилого строения</p>
-						<a href="#documents">Подробнее...</a>
+						<a href="#j22">Подробнее...</a>
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/IV.png" alt="I">
 						<p><b>4.<u>Регистрация права в Росреестре</u></b><br><span style="color: transparent;">Жилого строения</span></p>
-						<a href="#documents">Подробнее...</a>
+						<a href="#j22">Подробнее...</a>
 					</div>
 				</div>
 
@@ -498,32 +520,10 @@
 		</div>
 	</section>
 
-	<section id="comp" class="navigation navigation-1">
-		<div class="container">
-			<div class="col-sm-9">
-
-				<div class="row">
-					<div class="col-sm-4">
-						<img src="img/arch.png" alt="I">
-					</div>
-					<div class="col-sm-8">
-						<h3>Компетентные органы</h3>
-						<p>Участвующие в регистрации права</p>
-						<ul>
-							<li id="ko-1"><a href="#block-10">Посмотреть содержание раздела</a></li>
-						</ul>
-						<p><b>Нажмите</b> чтобы увидеть полное содержание раздела</p>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
-
 	<section id="block-10" class="block-10 hidden">
 		<div class="container">
 
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
 				
 				<h2>Компетентные органы</h2>
 
@@ -552,7 +552,7 @@
 						<h3>Департамент права – Юридическая компания</h3>
 						<img src="img/tie.png" alt="I">
 						<p>Представляет интересы собственников - согласовывает вопросы строительства, осуществляет ввод в эксплуатацию, постановку на кадастровый учет и регистрацию в Росреестре.</p>
-						<a href="#j7">О нашей компании</a>
+						<a href="#">О нашей компании</a>
 					</div>
 				</div>
 
@@ -564,73 +564,49 @@
 		</div>
 	</section>
 
-	<section id="documents" class="navigation navigation-1">
-		<div class="container">
-			<div class="col-sm-9">
-
-				<div class="row">
-					<div class="col-sm-4">
-						<img src="img/docs.png" alt="I">
-					</div>
-					<div class="col-sm-8">
-						<h3>Документы</h3>
-						<p>Требуемые для регистрации права, итоговый документ</p>
-						<ul>
-							<li id="d-1"><a href="#block-11">Посмотреть содержание раздела</a></li>
-						</ul>
-						<p><b>Нажмите</b> чтобы увидеть полное содержание раздела</p>
-					</div>
-				</div>
-
-				<button class="button" type="submit">Зарегистрировать право</button>
-
-			</div>
-		</div>
-	</section>
-
-	<section id="block-11" class="block block-11 hidden">
+	<section id="block-11" class="block-11 hidden">
 		<div class="container">
 
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
 				
-				<h2>Документы<br><span>Для регистрации права</span></h2>
+				<h2>Документы<br>Для регистрации права</h2>
 
 				<div class="row items">
 					<div id="j17" class="item col-sm-6">
 						<h3>Градостроительный план<br>земельного участка<br>(ГПЗУ)</h3>
 						<img src="img/list.png" alt="I">
 						<p>Документация по планировке территории, в ней содержатся сведения, которые требуются для проектирования и строительства жилого участка (нормативы, а также ограничения по строительству и землеустройству).</p>
-						<a href="#comp">Выдает* территориальный орган Архитектуры</a>
+						<a href="#j23">Выдает* территориальный орган Архитектуры</a>
 					</div>
 					<div id="j18" class="item col-sm-6">
 						<h3>Схема планировочной<br>организацииземельного участка<br>(СПОЗУ)</h3>
 						<img src="img/square.png" alt="I">
 						<p>Выполняется в соответствии с информацией, указанной в ГПЗУ, с обозначением места размещения объекта капитального строительства, подъездов и проходов к нему, зон действия публичных сервитутов, археологического наследия.</p>
-						<a href="#comp">Разрабатывает наша компания</a>
+						<a href="#27">Разрабатывает наша компания</a>
 					</div>
 					<div id="j19" class="item col-sm-6">
 						<h3>Разрешение<br>на строительство</h3>
 						<img src="img/bulding.png" alt="I">
 						<p>Проектная документация требованиям, установленным регламентом, проектом планировки территории и межевания территории.</p>
-						<a href="#comp">Выдает* Государственный строительный надзор</a>
+						<a href="#24">Выдает* Государственный строительный надзор</a>
 						<br>
-						<a href="#j8">Последовательность действий</a>
+						<a href="#28">Последовательность действий</a>
 					</div>
 					<div id="j20" class="item col-sm-6">
 						<h3>Технический план<br>план</h3>
 						<img src="img/plan.png" alt="I">
 						<p>Документ в котором указаны технические сведения о недвижимости.  Состоит из графической и текстовой частей.</p>
-						<a href="#comp">Разрабатывают кадастровые инженеры</a>
+						<a href="#25">Разрабатывают кадастровые инженеры</a>
 						<br>
-						<a href="#j9">Последовательность действий</a>
+						<a href="#29">Последовательность действий</a>
 					</div>
 					<div id="j21" class="item col-sm-6">
-						<h3>Ввод объекта<br>в эксплуатацию</h3>
+						<h3>Разрешение на ввод<br>объекта в эксплуатацию</h3>
 						<img src="img/house.png" alt="I">
 						<p>Соответствие дома разрешению на строительство, проектной документации, строительным, земельным и заявленным параметрам.</p>
-						<a href="#comp">Выдает Государственный строительный надзор</a>
+						<a href="#24">Выдает Государственный строительный надзор</a>
 						<br>
-						<a href="#j10">Последовательность действий</a>
+						<a href="#30">Последовательность действий</a>
 					</div>
 					<div class="item col-sm-6">
 						<h3>Правоустанавливающие<br>документы</h3>
@@ -650,14 +626,14 @@
 					<p><b>Выписка о регистрации права собственности</b></p>
 					<img src="img/flower.png" alt="Img">
 					<p>Сведения об объекте недвижимости, внесенные в Единый государственный реестр недвижимости.</p>
-					<a href="#comp">Выдает* Федеральная служба государственной регистрации, кадастра и картографии</a>
+					<a href="#j26">Выдает* Федеральная служба государственной регистрации, кадастра и картографии</a>
 					<br>
-					<a href="#j11">Последовательность действий</a>
+					<a href="#j31">Последовательность действий</a>
 					<br>
 					<img src="img/pen.png" width="80px" alt="img">
 				</div>
 
-				<p><i><a href="#j35">*При подаче документов используем электронно-цифровую подпись</a></i></p>
+				<p><i><a href="j35">*При подаче документов используем электронно-цифровую подпись</a></i></p>
 				<button class="button" type="submit">Оформить документы</button>
 
 			</div>
@@ -667,12 +643,12 @@
 
 	<section id="j6" class="navigation navigation-2">
 		<div class="container">
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
 
 				<h2>Последовательность действий</h2>
 				
-				<div id="j12" class="row">
-					<div id="j13" class="col-sm-4">
+				<div class="row">
+					<div class="col-sm-4">
 						<img src="img/sale1.png" alt="I">
 					</div>
 					<div class="col-sm-8">
@@ -683,9 +659,72 @@
 							<li id="aud-3"><a href="#block-14">Согласование строительства</a></li>
 							<li id="aud-4"><a href="#block-15">Результаты аудита</a></li>
 						</ul>
-						<p><b>Нажмите</b> чтобы увидеть полное содержание раздела</p>
+						<p>Нажмите чтобы увидеть полное содержание раздела</p>
 					</div>
 				</div>
+
+				<div class="row">
+					<div class="col-sm-4">
+						<img src="img/bulding.png" alt="I">
+					</div>
+					<div class="col-sm-8">
+						<h3>Получение разрешения на СТРОИТЕЛЬСТВО</h3>
+						<ul>
+							<li id="pr-1"><a href="#block-16">Необходимые документы</a></li>
+							<li id="pr-2"><a href="#block-16">Последовательность действий</a></li>
+							<li id="pr-3"><a href="#block-16">Результаты нашей работы</a></li>
+						</ul>
+						<p>Нажмите чтобы увидеть полное содержание раздела</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-4">
+						<img src="img/plan.png" alt="I">
+					</div>
+					<div class="col-sm-8">
+						<h3>Изготовление технического плана</h3>
+						<ul>
+							<li id="it-1"><a href="#block-17">Необходимые документы</a></li>
+							<li id="it-2"><a href="#block-17">Последовательность действий</a></li>
+							<li id="it-3"><a href="#block-17">Результаты нашей работы</a></li>
+						</ul>
+						<p>Нажмите чтобы увидеть полное содержание раздела</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-4">
+						<img src="img/house.png" alt="I">
+					</div>
+					<div class="col-sm-8">
+						<h3>Ввод объекта в эксплуатацию</h3>
+						<ul>
+							<li id="vo-1"><a href="#block-18">Необходимые документы</a></li>
+							<li id="vo-2"><a href="#block-18">Последовательность действий</a></li>
+							<li id="vo-3"><a href="#block-18">Результаты нашей работы</a></li>
+						</ul>
+						<p>Нажмите чтобы увидеть полное содержание раздела</p>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-4">
+						<img src="img/hnote.png" alt="I">
+					</div>
+					<div class="col-sm-8">
+						<h3>Постановка на кадастровый учет</h3>
+						<p>И регистрация права в Росреестре</p>
+						<ul>
+							<li id="pk-1"><a href="#block-19">Необходимые документы</a></li>
+							<li id="pk-2"><a href="#block-19">Последовательность действий</a></li>
+							<li id="pk-3"><a href="#block-19">Результаты нашей работы</a></li>
+						</ul>
+						<p>Нажмите чтобы увидеть полное содержание раздела</p>
+					</div>
+				</div>
+
+				<button class="button" type="submit">Зарегистрировать право</button>
 
 			</div>
 		</div>
@@ -694,7 +733,7 @@
 	<section id="block-12" class="block-12 hidden">
 		<div class="container">
 
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
 				
 				<h2>Аудит документов</h2>
 
@@ -752,9 +791,9 @@
 	<section id="block-13" class="block-13 hidden">
 		<div class="container">
 
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
 				
-				<h2 id="j32" class="row">Проверка обременений и ограничений</h2>
+				<h2 class="row">Проверка обременений и ограничений</h2>
 
 					<div class="items">
 						<div class="item col-sm-4">
@@ -793,9 +832,9 @@
 	<section id="block-14" class="block-14 hidden">
 		<div class="container">
 
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
 				
-				<h2 id="j33" class="row">Согласование строительства</h2>
+				<h2 class="row">Согласование строительства</h2>
 
 					<div class="items">
 						<div class="item col-sm-4">
@@ -831,12 +870,12 @@
 		</div>
 	</section>
 
-	<section id="block-15" class="block block-15 hidden">
+	<section id="block-15" class="block-15 hidden">
 		<div class="container">
 
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
 				
-				<h2 id="j13" class="row">Результат аудита<br><span>Индивидуальный план регистрации</span></h2>
+				<h2 class="row">Результат аудита<br>Индивидуальный план регистрации</h2>
 
 					<div class="items">
 						<div class="item col-sm-6">
@@ -865,33 +904,10 @@
 		</div>
 	</section>
 
-	<section class="navigation navigation-2">
-		<div class="container">
-			<div class="col-sm-9">
-
-				<div class="row">
-					<div class="col-sm-4">
-						<img src="img/bulding.png" alt="I">
-					</div>
-					<div class="col-sm-8">
-						<h3 id="j8">Получение разрешения на СТРОИТЕЛЬСТВО</h3>
-						<ul>
-							<li id="pr-1"><a href="#block-16">Необходимые документы</a></li>
-							<li id="pr-2"><a href="#block-16-2">Последовательность действий</a></li>
-							<li id="pr-3"><a href="#block-16-3">Результаты нашей работы</a></li>
-						</ul>
-						<p><b>Нажмите</b> чтобы увидеть полное содержание раздела</p>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
-
 	<section id="block-16" class="block-16 hidden">
 		<div class="container">
 
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
 
 				<div class="row items">
 					<h4>Необходимые документы</h4>
@@ -905,100 +921,46 @@
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/square.png" alt="Image">
-						<p><b>3.Схема планировочной организации земельного участка (<a href="#documents">СПОЗУ</a>)</b></p>
+						<p><b>3.Схема планировочной организации земельного участка (СПОЗУ)</b></p>
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/list.png" alt="Image">
-						<p><b>4.Градостроительный план земельного участка (<a href="#documents">ГПЗУ</a>)</b></p>
+						<p><b>4.Градостроительный план земельного участка (ГПЗУ)</b></p>
 					</div>
 				</div>
 
-				<br>
-				<img src="img/pen.png" width="65px" alt="i">
-				<p><i><a href="#j35">*При подаче документов используем электронно-цифровую подпись</a></i></p>
-				<button class="button" type="submit">Получить разрешение на строительство</button>
-
-			</div>
-		</div>
-	</section>
-
-	<section id="block-16-2" class="block-16-2 hidden">
-		<div class="container">
-
-			<div class="col-sm-9">
-
 				<div class="row items">
-					<h4 id="j28">Последовательность действий</h4>
+					<h4>Последовательность действий</h4>
 					<div class="item col-sm-6">
 						<img src="img/I.png" alt="Image">
-						<p><b>1.Выявление возможных обременений</b><br><a href="#j12">Подробнее...</a></p>
+						<p><b>1.Выявление возможных обременений</b><br><a href="#">Подробнее...</a></p>
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/II.png" alt="Image">
-						<p><b>2.Получение ГПЗУ</b><br><span>В <a href="#comp">территориальном органе архитектуры</a>*</span></p>
+						<p><b>2.Получение ГПЗУ</b><br><span>В <a>территориальном органе архитектуры</a>*</span></p>
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/III.png" alt="Image">
-						<p><b>3.Разработка СПОЗУ</b><br><span>Силами <a href="#j7">нашей компании</a></span></p>
+						<p><b>3.Разработка СПОЗУ</b><br><span>Силами <a href="#">нашей компании</a></span></p>
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/IV.png" alt="Image">
-						<p><b>4.Согласование строительства</b><br><span><a href="#j12">С компетентными органами</a></span></p>
+						<p><b>4.Согласование строительства</b><br><span><a href="#">С компетентными органами</a></span></p>
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/V.png" alt="Image">
-						<p><b>5.Подача заявления</b><br><span>Получение разрешения на строительство в <a href="#comp">Государственном строительном надзоре</a>*</span></p>
+						<p><b>5.Подача заявления</b><br><span>Получение разрешения на строительство в <a href="#">Государственном строительном надзоре</a>*</span></p>
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/rosp.png" width="65px" alt="Image">
-						<p><b><a href="#j34">Нормативная база</a></b><br><span><i>Градостроительный Кодекс РФ<br>Статья 51. Разрешение на строительство.</i></span></p>
+						<p><b><u>Нормативная база</u></b><br><span><i>Градостроительный Кодекс РФ<br>Статья 51. Разрешение на строительство.</i></span></p>
 					</div>
 				</div>
 
 				<br>
 				<img src="img/pen.png" width="65px" alt="i">
-				<p><i><a href="#j35">*При подаче документов используем электронно-цифровую подпись</a></i></p>
+				<p><i>*При подаче документов используем электронно-цифровую подпись</i></p>
 				<button class="button" type="submit">Получить разрешение на строительство</button>
-
-			</div>
-		</div>
-	</section>
-
-	<section id="block-16-3" class="block-16-3 hidden">
-		<div class="container">
-			<div class="col-sm-9">
-				<h3>Результаты нашей работы</h3>
-				<div class="col-sm-4">
-					Кейс - скан документа (скан 1.1) <br>
-				</div>
-				<div class="col-sm-4">
-					Кейс - скан документа (скан 1.2) <br>
-				</div>
-				<div class="col-sm-4">
-					Кейс - скан документа (скан 1.3) <br>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="j9" class="navigation navigation-2">
-		<div class="container">
-			<div class="col-sm-9">
-
-				<div class="row">
-					<div class="col-sm-4">
-						<img src="img/plan.png" alt="I">
-					</div>
-					<div class="col-sm-8">
-						<h3>Изготовление технического плана</h3>
-						<ul>
-							<li id="it-1"><a href="#block-17">Необходимые документы</a></li>
-							<li id="it-2"><a href="#block-17-2">Последовательность действий</a></li>
-							<li id="it-3"><a href="#block-17-3">Результаты нашей работы</a></li>
-						</ul>
-						<p><b>Нажмите</b> чтобы увидеть полное содержание раздела</p>
-					</div>
-				</div>
 
 			</div>
 		</div>
@@ -1006,21 +968,12 @@
 
 	<section id="block-17" class="block-17 hidden">
 		<div class="container">
-			<div class="col-sm-9">
-				<h3>Необходимые документы</h3>
-				<img src="img/hnote.png" alt="n">
-				<p><b>1.Правоустанавливающие документы</b></p>
-				<button class="button">Изготовить технический план</button>
-			</div>
-		</div>
-	</section>
-
-	<section id="block-17-2" class="block-17-2 hidden">
-		<div class="container">
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
+				
+				<h2 class="row">Изготовление технического плана</h2>
 
 				<div class="row items">
-					<h4 id="j29">Последовательность действий</h4>
+					<h4>Последовательность действий</h4>
 					<div class="item col-sm-6">
 						<img src="img/I.png" alt="Image">
 						<p><b>1. Выезд специалиста</b><br><span>На земельный участок</span></p>
@@ -1039,11 +992,11 @@
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/V.png" alt="Image">
-						<p><b>5. Разработка</b><br><span><a href="#documents">Технического плана</a> объекта</span></p>
+						<p><b>5. Разработка</b><br><span>Технического плана объекта</span></p>
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/rosp.png" width="65px" alt="Image">
-						<p><b><a href="#j34">Нормативная база</a></b><br><span><i>Федеральный закон №218-ФЗ</i></span></p>
+						<p><b><u>Нормативная база</u></b><br><span><i>Федеральный закон №218-ФЗ</i></span></p>
 					</div>
 				</div>
 
@@ -1054,50 +1007,12 @@
 		</div>
 	</section>
 
-	<section id="block-17-3" class="block-17-3 hidden">
-		<div class="container">
-			<div class="col-sm-9">
-				<h3>Результаты нашей работы</h3>
-				<div class="col-sm-4">
-					Кейс - скан документа (скан 2.1) <br>
-				</div>
-				<div class="col-sm-4">
-					Кейс - скан документа (скан 2.2) <br>
-				</div>
-				<div class="col-sm-4">
-					Кейс - скан документа (скан 2.3) <br>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="j10" class="navigation navigation-2">
-		<div class="container">
-			<div class="col-sm-9">
-
-				<div class="row">
-					<div class="col-sm-4">
-						<img src="img/house.png" alt="I">
-					</div>
-					<div class="col-sm-8">
-						<h3>Ввод объекта в эксплуатацию</h3>
-						<ul>
-							<li id="vo-1"><a href="#block-18">Необходимые документы</a></li>
-							<li id="vo-2"><a href="#block-18-2">Последовательность действий</a></li>
-							<li id="vo-3"><a href="#block-18-3">Результаты нашей работы</a></li>
-						</ul>
-						<p><b>Нажмите</b> чтобы увидеть полное содержание раздела</p>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
-
 	<section id="block-18" class="block-18 hidden">
 		<div class="container">
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
 				
+				<h2 class="row">Ввод объекта в эксплуатацию</h2>
+
 				<div class="row items">
 					<h4>Необходимые документы</h4>
 					<div class="item col-sm-6">
@@ -1125,16 +1040,6 @@
 						<p><b>6.Нотариальная доверенность</b></p>
 					</div>
 				</div>
-
-				<button class="button" type="submit">Оформить ввод в эксплуатацию</button>
-
-			</div>
-		</div>
-	</section>
-
-	<section id="block-18-2" class="block-18-2 hidden">
-		<div class="container">
-			<div class="col-sm-9">
 
 				<div class="row items">
 					<h4>Последовательность действий</h4>
@@ -1170,52 +1075,11 @@
 		</div>
 	</section>
 
-	<section id="block-18-3" class="block-18-3 hidden">
-		<div class="container">
-			<div class="col-sm-9">
-				<h3>Результаты нашей работы</h3>
-				<div class="col-sm-4">
-					Кейс - скан документа (скан 3.1) <br>
-				</div>
-				<div class="col-sm-4">
-					Кейс - скан документа (скан 3.2) <br>
-				</div>
-				<div class="col-sm-4">
-					Кейс - скан документа (скан 3.3) <br>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="j11" class="navigation navigation-2">
-		<div class="container">
-			<div class="col-sm-9">
-
-				<div class="row">
-					<div class="col-sm-4">
-						<img src="img/hnote.png" alt="I">
-					</div>
-					<div class="col-sm-8">
-						<h3>Постановка на кадастровый учет</h3>
-						<p>И регистрация права в Росреестре</p>
-						<ul>
-							<li id="pk-1"><a href="#block-19">Необходимые документы</a></li>
-							<li id="pk-2"><a href="#block-19-2">Последовательность действий</a></li>
-							<li id="pk-3"><a href="#block-19-3">Результаты нашей работы</a></li>
-						</ul>
-						<p><b>Нажмите</b> чтобы увидеть полное содержание раздела</p>
-					</div>
-				</div>
-
-				<button class="button" type="submit">Зарегистрировать право</button>
-
-			</div>
-		</div>
-	</section>
-
 	<section id="block-19" class="block-19 hidden">
 		<div class="container">
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
+				
+				<h2 class="row">Постановка на кадастровый учет</h2>
 
 				<div class="row items">
 					<h4>Необходимые документы</h4>
@@ -1237,38 +1101,8 @@
 					</div>
 				</div>
 
-				<br>
-				<button class="button" type="submit">Зарегистрировать право</button>
-
-			</div>
-		</div>
-	</section>
-
-	<section id="block-19-3" class="block-19-3 hidden">
-		<div class="container">
-			<div class="col-sm-9">
-				<h3>Результаты нашей работы</h3>
-				<div class="col-sm-4">
-					Кейс - скан документа (скан 4.1) <br>
-				</div>
-				<div class="col-sm-4">
-					Кейс - скан документа (скан 4.2) <br>
-				</div>
-				<div class="col-sm-4">
-					Кейс - скан документа (скан 4.3) <br>
-				</div>
-			</div>
-		</div>
-
-		<button class="button">Зарегистрировать право!</button>
-	</section>
-
-	<section id="block-19-2" class="block-19-2 hidden">
-		<div class="container">
-			<div class="col-sm-9">
-				
 				<div class="row items">
-					<h4 id="#j11">Последовательность действий</h4>
+					<h4>Последовательность действий</h4>
 					<div class="item col-sm-6">
 						<img src="img/I.png" alt="Image">
 						<p><b>1. Подача заявления</b><br><span>О постановке на кадастровый учет</span></p>
@@ -1279,30 +1113,31 @@
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/III.png" alt="Image">
-						<p><b>3. Получение <a href="#documents">выписки</a></b><br><span>Из Единого Государственного<br>реестра недвижимости</span></p>
+						<p><b>3. Получение <a href="#">выписки</a></b><br><span>Из Единого Государственного<br>реестра недвижимости</span></p>
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/rosp.png" width="65px" alt="Image">
-						<p><b><a href="#j34">Нормативная база</a></b><br><span><i>Федеральный закон от 13 июля 2015г. №218-ФЗ<br>«О государственной регистрации недвижимости»</i></span></p>
+						<p><b><a href="#">Нормативная база</a></b><br><span><i>Федеральный закон от 13 июля 2015г. №218-ФЗ<br>«О государственной регистрации недвижимости»</i></span></p>
 					</div>
 				</div>
 
 				<br>
 				<img src="img/pen.png" width="65px" alt="i">
-				<p><a href="#j35">При подаче документов используем электронно-цифровую подпись</a></p>
+				<p><a href="#">При подаче документов используем электронно-цифровую подпись</a></p>
 				<button class="button" type="submit">Зарегистрировать право</button>
 
 			</div>
 		</div>
 	</section>
 
-	<section id="j7" class="block-20">
+	<section class="block-20">
 		<div class="container">
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
 				
-				<h2>Департамент права<br><span>Оказание юридических услуг</span></h4></h2>
+				<h2>Департамент права</h2>
 
 				<div class="row items">
+					<h4>Оказание юридических услуг</h4>
 					<div class="item col-sm-6">
 						<img src="img/sale1.png" alt="Image">
 						<p><b>Оформление недвижимости</b></p>
@@ -1327,9 +1162,9 @@
 		</div>
 	</section>
 
-	<section class="block block-21">
+	<section class="block-21">
 		<div class="container">
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
 				
 				<h2>Схема работы с нами</h2>
 
@@ -1366,9 +1201,9 @@
 		</div>
 	</section>
 
-	<section class="block block-22">
+	<section class="block-22">
 		<div class="container">
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
 				
 				<h2>Преимущества работы с нами</h2>
 
@@ -1376,14 +1211,14 @@
 					<div class="item col-sm-6">
 						<img src="img/hkey.png" alt="Image">
 						<h3>ОКАЗАНИЕ УСЛУГ “ПОД КЛЮЧ”</h3>
-						<p>Результатом работы является право на Ваши объекты недвижимости в виде выписок из Единого государственного реестра недвижимости.</p>
+						<p>Результатом работы является зарегистрированное право на Ваши объекты недвижимости в виде выписок из Единого государственного реестра недвижимости.</p>
 					</div>
 					<div class="item col-sm-6">
 						<img src="img/fence.png" alt="Image">
 						<h3>ПОЭТАПНАЯ ОПЛАТА</h3>
 						<p>Для Вас мы составим индивидуальный график промежуточных платежей. Окончательная оплата потребуется только по факту завершения работ.</p>
 					</div>
-					<div id="j35" class="item col-sm-6">
+					<div class="item col-sm-6">
 						<img src="img/pen.png" alt="Image">
 						<h3>ЭЛЕКТРОННЫЙ ДОКУМЕНТООБОРОТ</h3>
 						<p>Скорость подачи и обработки документов сводится к минимуму, за счет использования цифровой подписи и возможностей электронного документооборота с Государственными органами.</p>
@@ -1411,9 +1246,9 @@
 		</div>
 	</section>
 
-	<section id="j34" class="navigation navigation-3">
+	<section id="j5" class="navigation navigation-3">
 		<div class="container">
-			<div class="col-sm-9">
+			<div class="col-sm-8 col-sm-offset-2">
 				
 				<h1>Нормативная база</h1>
 
@@ -1424,32 +1259,11 @@
 					<div class="col-sm-8">
 						<h3>Федеральные законы</h3>
 						<ul>
-	    				<li id="fz-1"><a href="#fedzak">Содержание раздела</a></li>
+	    				<li id="fz-1"><a href="#block-8">Содержание раздела</a></li>
 						</ul>
-						<p><b>Нажмите</b> чтобы увидеть полное содержание раздела</p>
+						<p>Нажмите чтобы увидеть полное содержание раздела</p>
 					</div>
 				</div>
-
-			</div>
-		</div>
-	</section>
-
-	<section id="fedzak" class="fedzak base hidden">
-		<div class="container">
-			<div class="col-sm-9">
-				<div class="col-sm-8 col-sm-offset-4">
-					<p><b>№218-ФЗ</b> от 13 июля 2015г<br>«О государственной регистрации недвижимости»</p>
-					<p><b>№221-ФЗ</b> от 24 июля 2007г. (ред. от 03.07.2016)<br>«О кадастровой деятельности»</p>
-					<p><b>№66-ФЗ</b> от 15 апреля 1998г.<br> «О садоводческих, огороднических и дачных некоммерческих объединениях граждан»</p>
-					<p><b>№112-ФЗ</b> от 7 июля 2003г. <br>«О личном подсобном хозяйстве»</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="navigation navigation-3">
-		<div class="container">
-			<div class="col-sm-9">
 
 				<div class="row">
 					<div class="col-sm-4">
@@ -1458,31 +1272,12 @@
 					<div class="col-sm-8">
 						<h3>Приказы</h3>
 						<ul>
-	    				<li id="prik-1"><a href="#prikazy">Содержание раздела</a></li>
+	    				<li id="prik-1"><a href="#block-8">Содержание раздела</a></li>
 						</ul>
-						<p><b>Нажмите</b> чтобы увидеть полное содержание раздела</p>
+						<p>Нажмите чтобы увидеть полное содержание раздела</p>
 					</div>
 				</div>
 
-			</div>
-		</div>
-	</section>
-
-	<section id="prikazy" class="prikazy base hidden">
-		<div class="container">
-			<div class="col-sm-9">
-				<div class="col-sm-8 col-sm-offset-4">
-					<p><b>№741/пр</b> от 25 апреля 2017г.<br>«Об утверждении формы градостроительного плана земельного участка и порядка ее заполнения» Министерств строительства и жилищно-коммунального хозяйства Российской Федерации</p>
-					<p><b>№37</b> (ред. от 04.09.2000г.) от 04.08.1998г.<br>«Об утверждении Инструкции о проведении учета жилищного фонда в Российской Федерации» Минземстроя РФ  (с изм. и доп., вступающими в силу с 19.05.2008г.)</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="navigation navigation-3">
-		<div class="container">
-			<div class="col-sm-9">
-				
 				<div class="row">
 					<div class="col-sm-4">
 						<img src="img/sud.png" alt="I">
@@ -1490,31 +1285,11 @@
 					<div class="col-sm-8">
 						<h3>Законы и Постановления города Москвы</h3>
 						<ul>
-							<li id="zip-1"><a href="#zakipost">Содержание раздела</a></li>
+							<li id="zp-1"><a href="#block-11">Содержание раздела</a></li>
 						</ul>
-						<p><b>Нажмите</b> чтобы увидеть полное содержание раздела</p>
+						<p>Нажмите чтобы увидеть полное содержание раздела</p>
 					</div>
 				</div>
-
-			</div>
-		</div>
-	</section>
-
-	<section id="zakipost" class="zakipost base hidden">
-		<div class="container">
-			<div class="col-sm-9">
-				<div class="col-sm-8 col-sm-offset-4">
-					<p><b>Закон №28</b> от 25 июня 2008г.<br>«Градостроительный кодекс города Москвы»</p>
-					<p><b>Закон №17</b> от 5 мая 2010г.<br>«О Генеральном плане города Москвы»</p>
-					<p><b>Постановление №120-ПП</b>от 28 марта 2017г.<br>«Об утверждении правил землепользования и застройки города Москвы»</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="navigation navigation-3">
-		<div class="container">
-			<div class="col-sm-9">
 
 				<div class="row">
 					<div class="col-sm-4">
@@ -1523,32 +1298,11 @@
 					<div class="col-sm-8">
 						<h3>Градостроительный кодекс</h3>
 						<ul>
-							<li id="grdk-1"><a href="#gradkod">Содержание раздела</a></li>
+							<li id="grdk-1"><a href="#block-11">Содержание раздела</a></li>
 						</ul>
-						<p><b>Нажмите</b> чтобы увидеть полное содержание раздела</p>
+						<p>Нажмите чтобы увидеть полное содержание раздела</p>
 					</div>
 				</div>
-
-			</div>
-		</div>
-	</section>
-
-	<section id="gradkod" class="gradkod base hidden">
-		<div class="container">
-			<div class="col-sm-9">
-				<div class="col-sm-8 col-sm-offset-4">
-					<p><b>Статья 49.</b><br>Экспертиза проектной документации и результатов инженерных изысканий</p>
-					<p><b>Статья 51.</b><br>Разрешение на строительство</p>
-					<p><b>Статья 55.</b><br>Выдача разрешения на ввод объекта в эксплуатацию</p>
-					<p><b>Статья 57.3.</b><br>Градостроительный план земельного участка</p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section  class="navigation navigation-3">
-		<div class="container">
-			<div class="col-sm-9">
 
 				<div class="row">
 					<div class="col-sm-4">
@@ -1562,35 +1316,93 @@
 							(в части уточнения положений о самовольных постройках)
 							</p>
 						<ul>
-							<li id="grk-1"><a href="#grazdkod">Содержание раздела</a></li>
+							<li id="grk-1"><a href="#block-11">Содержание раздела</a></li>
 						</ul>
-						<p><b>Нажмите</b> чтобы увидеть полное содержание раздела</p>
+						<p>Нажмите чтобы увидеть полное содержание раздела</p>
 					</div>
 				</div>
 
-			</div>
-		</div>
-	</section>
-
-	<section id="grazdkod" class="grazdkod base hidden">
-		<div class="container">
-			<div class="col-sm-9">
-				<div class="col-sm-8 col-sm-offset-4">
-					<p><b>Законопроект №301924-7 от 01.11.2017г.</b></p>
-					<p>«О внесении изменений в Гражданский кодекс Российской Федерации (в части уточнения положений о самовольных постройках)», в соответствии с п.2:</p>
-					<p><i>Правообладатель земельного участка, на котором создана самовольная постройка, не вправе продавать, дарить, сдавать в аренду, совершать иные сделки.</i></p>
-					<p><i>Самовольная постройка подлежит сносу или приведению в соответствие с параметрами. Эксплуатация не допускается.</i></p>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section id="lastblock"  class="navigation navigation-3">
-		<div class="container">
-			<div class="col-sm-9">
-
 				<p>Закажите бесплатный звонок, мы перезвоним и подробно ответим на все интересующие Вас вопросы!</p>
 				<button class="button" type="submit"> Получить ответы на вопросы</button>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="block-23">
+		<div class="container">
+			<div class="col-sm-8 col-sm-offset-2">
+				
+				<h2>Нормативная база</h2>
+
+				<div class="row items">
+					<div class="item col-sm-6">
+						<p><b>Федеральные законы</b></p>
+						<img src="img/image3.png" alt="i">
+						<ul>
+							<li><b>№218-ФЗ</b> от 13 июля 2015г  «О регистрации недвижимости»</li>
+							<li><b>№221-ФЗ</b> от 24 июля 2007г. (ред. от 03.07.2016) «О кадастровой деятельности»</li>
+							<li><b>№66-ФЗ</b> от 15 апреля 1998г.  «О садоводческих и дачных объединениях граждан»</li>
+							<li><b>№112-ФЗ</b> от 7 июля 2003г. «О подсобном хозяйстве»</li>
+						</ul>
+					</div>
+
+					<div class="item col-sm-6">
+						<p><b>Законы и Постановления Москвы</b></p>
+						<img src="img/image3.png" alt="i">
+						<ul>
+							<li><b>Закон №28</b> от 25 июня 2008г. «Градостроительный кодекс города Москвы»</li>
+							<li><b>Закон №17</b> от 5 мая 2010г.  «О Генеральном плане города Москвы»</li>
+							<li><b>Постановление №120-ПП</b> от 28 марта 2017г. «Об утверждении правил землепользования и застройки города Москвы»</li>
+						</ul>
+					</div>
+
+					<div class="item col-sm-6">
+						<p><b>Приказы</b></p>
+						<img src="img/image3.png" alt="i">
+						<ul>
+							<li><b>№741/пр</b> от 25 апреля 2017г.  «Об утверждении формы градостроительного плана участка и ее заполнения» Министерств строительства и хозяйства Российской Федерации</li>
+							<li><b>№37</b> от 04.08.1998г. «Об утверждении Инструкции о проведении учета жилищного фонда в Российской Федерации» Минземстроя РФ</li>
+						</ul>
+					</div>
+
+					<div class="item col-sm-6">
+						<p><b>Градостроительный кодекс</b></p>
+						<img src="img/image3.png" alt="i">
+						<ul>
+							<li><b>Статья 49</b>. Экспертиза проектной документации и результатов инженерных изысканий</li>
+							<li><b>Статья 51</b>. Разрешение на строительство</li>
+							<li><b>Статья 55</b>. Выдача разрешения на ввод объекта в эксплуатацию</li>
+							<li><b>Статья 57.3</b>. Градостроительный план земельного участка</li>
+						</ul>
+					</div>
+
+					<div class="item col-sm-6 col-sm-offset-3">
+						<p><b>Гражданский кодекс</b></p>
+						<img src="img/image3.png" alt="i">
+						<ul>
+							<li style="text-align: center;"><b>Статья 222</b>. О самовольных постройках</li>
+						</ul>
+					</div>	
+				</div>
+
+				<div class="row second">
+					<h4>Возможные изменения</h4>
+					<p>
+						<i><b>Законопроект №301924-7 от 01.11.2017г.</b>
+						<br>
+						«О внесении изменений в Гражданский кодекс Российской Федерации<br>(в части уточнения положений о самовольных постройках)»,<br>в соответствии с п.2:</i>
+					</p>
+					<blockquote>	
+						Правообладатель земельного участка, на котором создана самовольная постройка, 
+						не вправе продавать, дарить, сдавать в аренду, совершать иные сделки. 
+						Самовольная постройка подлежит сносу или приведению в соответствие с параметрами. 
+						Эксплуатация не допускается.
+					</blockquote>
+				</div>
+
+				<p>Закажите бесплатный звонок, мы перезвоним и подробно ответим на все интересующие Вас вопросы!</p>
+				<button class="button" type="submit">Получить ответы на вопросы</button>
 
 			</div>
 		</div>
